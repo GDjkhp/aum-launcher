@@ -57,8 +57,8 @@ namespace aum_launcher
             }
         }
 
-        public const string GITHUB_OWNER = "BitCrackers";
-        public const string GITHUB_AUM_REPOSITORY = "AmongUsMenu";
+        public const string GITHUB_OWNER = "g0aty";
+        public const string GITHUB_AUM_REPOSITORY = "SickoMenu";
         public const string GITHUB_LAUNCHER_REPOSITORY = "aum-launcher";
         public const string GITHUB_PRODUCT_HEADER = "BitCrackers-AmongUsMenu-Launcher";
 
@@ -224,7 +224,7 @@ namespace aum_launcher
                     StatusLbl_AUM.Text = "AUM: OK";
                 }
                 // after we finish checking for AUM updates we want to check for launcher updates, so we start that here
-                GithubWorker.RunWorkerAsync(new GithubWorker_TaskInfo(GITHUB_LAUNCHER_REPOSITORY));
+                // GithubWorker.RunWorkerAsync(new GithubWorker_TaskInfo(GITHUB_LAUNCHER_REPOSITORY));
             }
             else if (taskInfo.FetchRepositoryName == GITHUB_LAUNCHER_REPOSITORY)
             {

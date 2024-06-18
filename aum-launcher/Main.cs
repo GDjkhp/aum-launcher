@@ -51,7 +51,7 @@ namespace aum_launcher
         public const string MOD_DEBUG_FOLDER_NAME = MOD_RELATIVE_PATH + "Debug";
         public const string MOD_DEBUG_FOLDER_PATH = MOD_DEBUG_FOLDER_NAME + "\\";
         public const string MOD_VERSION_FILENAME = "version.dll";
-        public const string MOD_INJECTABLE_FILENAME = "AmongUsMenu.dll";
+        public const string MOD_INJECTABLE_FILENAME = "SickoMenu.dll";
         public const string PROFILE_FILE_EXT = ".aumprof";
         public const string GAME_EXE_NAME = "Among Us.exe";
         public const string GAMEASSEMBLY_DLL_NAME = "GameAssembly.dll";
